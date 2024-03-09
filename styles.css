@@ -10,17 +10,26 @@ body {
 
 .flashcard-container {
   position: relative;
+  max-width: 90%;
 }
 
 .button-container {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 button {
   padding: 10px 20px;
   margin: 0 10px;
   cursor: pointer;
+}
+
+#flashcard-image {
+  max-width: 100%;
+  height: auto;
 }
